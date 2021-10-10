@@ -1,5 +1,5 @@
 type Query {
-  pokemons(first: Int): Pokemon
+  pokemons(first: Int!): [Pokemon]
 }
 
 type PokemonDimension {
